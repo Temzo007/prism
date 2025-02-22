@@ -1,0 +1,152 @@
+:root{
+    --blue: #000066;
+    --yellow: #ffe479;
+    --border: black medium solid;
+    --grey: #4d4d4d;
+    --bg: #202020;
+}
+body{
+    background: var(--bg);
+}
+#logo{
+    float: right;
+    padding: 10px 70px 10px 10px;
+    height: 50px;
+    vertical-align: middle;
+}
+#menu{
+    float: left;
+    height: 50px;
+    padding: 10px;
+    vertical-align: middle;
+    
+}
+#back{
+    align-self: start;
+    height: 30px;
+    padding: 20px 10px 20px 20px ;
+    vertical-align: middle;
+    
+}
+#search{
+    font-size: 20px;
+    width: 96%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 10px;
+    border: var(--border);
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#nav1{
+    background-color: var(--yellow);
+    position: fixed;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 7px 16px 2px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+}
+#aside{
+    position: fixed;
+    background-color: var(--grey);
+    width: 60%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 10px 0px;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 5;
+    box-shadow: 0px 7px 16px 2px rgba(0, 0, 0, 0.2);
+}
+#aside a {
+    color: white;
+    text-decoration: none;
+    
+    height: 42px;
+}
+.prob{
+    margin: 0;
+    
+    padding: 10px 10px 10px 20px;
+
+}
+
+.activee{
+    background-color: var(--yellow);
+    color: var(--blue);
+    margin: 0;
+    
+    padding: 10px 10px 10px 20px;}
+#nav2{
+    background-color: var(--grey);
+    
+    position: fixed;
+    display: inline;
+    padding:0 20px;
+    top: 160px;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 7px 16px 2px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: 100px;
+    border-top: solid white thin;
+}
+#nav3{
+    background-color: var(--grey);
+   
+    position: fixed;
+    
+    padding:20px 20px;
+    top: 90px;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 7px 16px 2px rgba(255, 247, 247, 0.507);
+    /* z-index: 3; */
+    
+}
+td a{
+    color: white;
+    text-decoration: none;
+}
+#nav2 h3 a{
+   
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding: 20px;
+}
+#nav2 h3 .active{
+    background-color: var(--yellow);
+    color: var(--blue);
+}
+
+.content h2{
+    color: var(--yellow);
+}
+table{
+    table-layout: fixed;
+    width: 100%;
+    
+}
+
+.profile{
+    height: 40px;
+    background-color: var(--grey);
+    border: white solid medium;
+    border-radius: 40px;
+    padding: 10px;
+    vertical-align: middle;
+} 
+    
+
+.template{
+    width: 100px;
+    padding: 10px;
+}
